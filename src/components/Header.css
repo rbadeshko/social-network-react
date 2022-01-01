@@ -1,0 +1,83 @@
+.heder__wrap {
+    width: 1200px;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.heder__logo {
+    width: 37px;
+    margin-right: 0.5rem;
+}
+
+.logo__img {
+    width: 37px;
+    height: auto;
+}
+
+.heder__nav {
+    display: flex;
+    flex: 1 0 auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu__item {
+    color: #ffffff;
+    margin-right: 2rem;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    display: block;
+    font-weight: normal;
+    font-size: 0.875rem;
+    color: rgb(255, 255, 255, 0.5);
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+.menu__item:first-child a {
+    color: #ffffff;
+}
+.menu__link:hover {
+    color: #ffffff;
+}
+.add-new_message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #ffffff;
+    background: #ff7555;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-left: 2rem;
+    text-align: center;
+    text-decoration: none;
+}
+.profile__block {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile__img {
+    margin-left: 2rem;
+    border-radius: 50%;
+}
+.profile__invitation {
+    position: relative;
+    color: #ffffff;
+    margin-left: 1rem;
+}
